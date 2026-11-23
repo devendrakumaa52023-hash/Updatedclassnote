@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "ClassNote AI",
+    "slug": "classnote-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.classnote.ai",
+      "permissions": ["RECORD_AUDIO", "FOREGROUND_SERVICE", "FOREGROUND_SERVICE_MICROPHONE", "WAKE_LOCK", "POST_NOTIFICATIONS"]
+    },
+    "plugins": [
+      ["expo-audio", { "microphonePermission": "ClassNote AI records your lecture.", "enableBackgroundRecording": true }],
+      ["expo-build-properties", { "android": { "compileSdkVersion": 35, "targetSdkVersion": 35 } }]
+    ]
+  }
+}
